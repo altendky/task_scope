@@ -1,6 +1,6 @@
 //! A runtime extension for adding support for Structured Concurrency to existing runtimes.
 //!
-//! # What is Strucutured Concurrency?
+//! # What is Structured Concurrency?
 //! [Structured Concurrency] is a programming paradigm that lets asynchronous operations run only
 //! within certain scopes so that they form an operation stack like a regular function call stack.
 //! As the parent operation waits until all children complete, Structured Concurrency helps local
